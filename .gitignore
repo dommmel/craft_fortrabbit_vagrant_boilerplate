@@ -1,0 +1,24 @@
+# Craft runtime and backups folders
+# ----------------------------------------------------------------------
+craft/storage/backups/*
+craft/storage/runtime/*
+
+# Craft license
+craft/config/license.key
+
+# Database dumps
+*.sql
+
+# Uploaded files
+# ----------------------------------------------------------------------
+public/assets/uploads/*
+
+# Misc files
+# ----------------------------------------------------------------------
+.DS_Store
+.vagrant
+node_modules
+.sass-cache
+
+# ssh tunnel socket
+my-ctrl-socket
