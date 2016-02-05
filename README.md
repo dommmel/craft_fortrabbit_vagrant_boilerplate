@@ -8,7 +8,7 @@ visit the hostname (e.g. http://mybox.dev) in your browser
 
 ## Asset compilation
 
-run `grunt` to compile scripts and styles into `/assets/css/main.css` resp. `/assets/css/main.js`
+run `grunt` to compile scripts and styles into `/assets/css/main.css` resp. `/assets/js/main.js`
 
 ## Import production database from fortrabbit
 
@@ -20,4 +20,4 @@ run `bin/import_production_into_local_db.sh`
 
 run `bin/update_craft.sh`
 
-this will download the newest version oft craft, unzip it and copy over the `app` folder and then all files in craft_customization (e.g. custom locales)
+this will download the newest version oft craft, unzip it and copy over the `app` folder and then all files in `craft_customization` (e.g. custom locales)
